@@ -1,0 +1,167 @@
+Station Code,Station Name,Opening Date
+NS1,Jurong East,10 March 1990
+NS2,Bukit Batok,10 March 1990
+NS3,Bukit Gombak,10 March 1990
+NS4,Choa Chu Kang,10 March 1990
+NS5,Yew Tee,10 February 1996
+NS7,Kranji,10 February 1996
+NS8,Marsiling,10 February 1996
+NS9,Woodlands,10 February 1996
+NS10,Admiralty,10 February 1996
+NS11,Sembawang,10 February 1996
+NS12,Canberra,December 2019
+NS13,Yishun,20 December 1988
+NS14,Khatib,20 December 1988
+NS15,Yio Chu Kang,7 November 1987
+NS16,Ang Mo Kio,7 November 1987
+NS17,Bishan,7 November 1987
+NS18,Braddell,7 November 1987
+NS19,Toa Payoh,7 November 1987
+NS20,Novena,12 December 1987
+NS21,Newton,12 December 1987
+NS22,Orchard,12 December 1987
+NS23,Somerset,12 December 1987
+NS24,Dhoby Ghaut,12 December 1987
+NS25,City Hall,12 December 1987
+NS26,Raffles Place,12 December 1987
+NS27,Marina Bay,4 November 1989
+NS28,Marina South Pier,23 November 2014
+EW1,Pasir Ris,16 December 1989
+EW2,Tampines,16 December 1989
+EW3,Simei,16 December 1989
+EW4,Tanah Merah,4 November 1989
+EW5,Bedok,4 November 1989
+EW6,Kembangan,4 November 1989
+EW7,Eunos,4 November 1989
+EW8,Paya Lebar,4 November 1989
+EW9,Aljunied,4 November 1989
+EW10,Kallang,4 November 1989
+EW11,Lavender,4 November 1989
+EW12,Bugis,4 November 1989
+EW13,City Hall,12 December 1987
+EW14,Raffles Place,12 December 1987
+EW15,Tanjong Pagar,12 December 1987
+EW16,Outram Park,12 December 1987
+EW17,Tiong Bahru,12 March 1988
+EW18,Redhill,12 March 1988
+EW19,Queenstown,12 March 1988
+EW20,Commonwealth,12 March 1988
+EW21,Buona Vista,12 March 1988
+EW22,Dover,18 October 2001
+EW23,Clementi,12 March 1988
+EW24,Jurong East,5 November 1988
+EW25,Chinese Garden,5 November 1988
+EW26,Lakeside,5 November 1988
+EW27,Boon Lay,6 July 1990
+EW28,Pioneer,28 February 2009
+EW29,Joo Koon,28 February 2009
+EW30,Gul Circle,18 June 2017
+EW31,Tuas Crescent,18 June 2017
+EW32,Tuas West Road,18 June 2017
+EW33,Tuas Link,18 June 2017
+CG0,Tanah Merah,4 November 1989
+CG1,Expo,10 January 2001
+CG2,Changi Airport,8 February 2002
+NE1,HarbourFront,20 June 2003
+NE3,Outram Park,20 June 2003
+NE4,Chinatown,20 June 2003
+NE5,Clarke Quay,20 June 2003
+NE6,Dhoby Ghaut,20 June 2003
+NE7,Little India,20 June 2003
+NE8,Farrer Park,20 June 2003
+NE9,Boon Keng,20 June 2003
+NE10,Potong Pasir,20 June 2003
+NE11,Woodleigh,20 June 2011
+NE12,Serangoon,20 June 2003
+NE13,Kovan,20 June 2003
+NE14,Hougang,20 June 2003
+NE15,Buangkok,15 January 2006
+NE16,Sengkang,20 June 2003
+NE17,Punggol,20 June 2003
+CC1,Dhoby Ghaut,17 April 2010
+CC2,Bras Basah,17 April 2010
+CC3,Esplanade,17 April 2010
+CC4,Promenade,17 April 2010
+CC5,Nicoll Highway,17 April 2010
+CC6,Stadium,17 April 2010
+CC7,Mountbatten,17 April 2010
+CC8,Dakota,17 April 2010
+CC9,Paya Lebar,17 April 2010
+CC10,MacPherson,17 April 2010
+CC11,Tai Seng,17 April 2010
+CC12,Bartley,28 May 2009
+CC13,Serangoon,28 May 2009
+CC14,Lorong Chuan,28 May 2009
+CC15,Bishan,28 May 2009
+CC16,Marymount,28 May 2009
+CC17,Caldecott,8 October 2011
+CC19,Botanic Gardens,8 October 2011
+CC20,Farrer Road,8 October 2011
+CC21,Holland Village,8 October 2011
+CC22,Buona Vista,8 October 2011
+CC23,one-north,8 October 2011
+CC24,Kent Ridge,8 October 2011
+CC25,Haw Par Villa,8 October 2011
+CC26,Pasir Panjang,8 October 2011
+CC27,Labrador Park,8 October 2011
+CC28,Telok Blangah,8 October 2011
+CC29,HarbourFront,8 October 2011
+CE0,Promenade,17 April 2010
+CE1,Bayfront,14 January 2012
+CE2,Marina Bay,14 January 2012
+DT1,Bukit Panjang,27 December 2015
+DT2,Cashew,27 December 2015
+DT3,Hillview,27 December 2015
+DT5,Beauty World,27 December 2015
+DT6,King Albert Park,27 December 2015
+DT7,Sixth Avenue,27 December 2015
+DT8,Tan Kah Kee,27 December 2015
+DT9,Botanic Gardens,27 December 2015
+DT10,Stevens,27 December 2015
+DT11,Newton,27 December 2015
+DT12,Little India,27 December 2015
+DT13,Rochor,27 December 2015
+DT14,Bugis,22 December 2013
+DT15,Promenade,22 December 2013
+DT16,Bayfront,22 December 2013
+DT17,Downtown,22 December 2013
+DT18,Telok Ayer,22 December 2013
+DT19,Chinatown,22 December 2013
+DT20,Fort Canning,21 October 2017
+DT21,Bencoolen,21 October 2017
+DT22,Jalan Besar,21 October 2017
+DT23,Bendemeer,21 October 2017
+DT24,Geylang Bahru,21 October 2017
+DT25,Mattar,21 October 2017
+DT26,MacPherson,21 October 2017
+DT27,Ubi,21 October 2017
+DT28,Kaki Bukit,21 October 2017
+DT29,Bedok North,21 October 2017
+DT30,Bedok Reservoir,21 October 2017
+DT31,Tampines West,21 October 2017
+DT32,Tampines,21 October 2017
+DT33,Tampines East,21 October 2017
+DT34,Upper Changi,21 October 2017
+DT35,Expo,21 October 2017
+TE1,Woodlands North,31 December 2019
+TE2,Woodlands,31 December 2019
+TE3,Woodlands South,31 December 2019
+TE4,Springleaf,31 December 2020
+TE5,Lentor,31 December 2020
+TE6,Mayflower,31 December 2020
+TE7,Bright Hill,31 December 2020
+TE8,Upper Thomson,31 December 2020
+TE9,Caldecott,31 December 2020
+TE10,Mount Pleasant,31 December 2021
+TE11,Stevens,31 December 2021
+TE12,Napier,31 December 2021
+TE13,Orchard Boulevard,31 December 2021
+TE14,Orchard,31 December 2021
+TE15,Great World,31 December 2021
+TE16,Havelock,31 December 2021
+TE17,Outram Park,31 December 2021
+TE18,Maxwell,31 December 2021
+TE19,Shenton Way,31 December 2021
+TE20,Marina Bay,31 December 2021
+TE21,Marina South,31 December 2021
+TE22,Gardens by the Bay,31 December 2021
