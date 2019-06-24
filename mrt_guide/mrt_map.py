@@ -27,6 +27,8 @@ from .exceptions import DoNotOperateException
 @total_ordering
 class StationItem:
     def __init__(self, cost, station, route, prev_stations):
+        '''Represent an entry in the MRTMap search queue
+        '''
         self.cost = cost
         self.count = len(route)
         self.station = station
@@ -56,6 +58,8 @@ class StationItem:
 
 class MRTMap:
     def __init__(self, station_rows):
+        '''Graph representation for MRT stations
+        '''
         station_name_map = defaultdict(set)
         station_code_map = {}
         transfers = defaultdict(set)

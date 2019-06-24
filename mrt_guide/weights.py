@@ -7,6 +7,8 @@ SECONDS_IN_HOUR = 3600
 
 
 class WeightsFactory:
+    '''Factory to get the wanted weights representation
+    '''
     @staticmethod
     def get_weights(complex_cost=False, dt=None):
         if not complex_cost or dt is None:

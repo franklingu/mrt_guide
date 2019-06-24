@@ -63,7 +63,13 @@ The main logic is under mrt_guide directory. Structure:
 
 * The whole project structure is very easy to understand as different modules do different things well and can work together nicely.
 * Many modules are built with great extensibility. For example, MRTMap does not assume anything about waiting time, and can nicely support customized Weights with focus just on graph related logic. Another example is the decoupling of routes and formatter -- formatter can be extended with ease and the output can be changed from string to JSON or xml without any modification to the system. Close to modification but open to extension.
+* Modularity enables compistion of various features in different ways. This is true for the app as well. The current implementation of the app is a command line app with simple formatter. It can be easily changed to a command line app with colors and other advanced features as well. And if needed, using the core package a web app can be developed serving requests on the internet as well.
 * The whole package takes in more parameters like limit to find fewer or more candidate routes as desired.
 * The whole package can be used to compute shortest path among a start and an end station for a given date[1] without just filtering at stations_reader.
 
 1. currently the system assume the map is static but the map is evolving in time in fact
+
+#### What is next
+
+* Convert mrt_guide into a package for easy installation.
+* Add more type safety to the package with type annotations.

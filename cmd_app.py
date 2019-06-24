@@ -14,6 +14,8 @@ class SimpleCommandLineApp:
         self.limit = limit
 
     def run(self):
+        '''Entry point for command line app. Runs until exit signal
+        '''
         instruction = (
             'Input start, end and optional datetime separated by comma or'
             ' exit with "exit"/"e": '
@@ -33,6 +35,9 @@ class SimpleCommandLineApp:
                     raise ValueError('Unrecognizable input')
             except ValueError as e:
                 print('Error: {}. Please try again.'.format(str(e)))
+            except KeyboardInterrupt:
+                # exit signal in addition to user input of exit/e
+                break
             except Exception as e:
                 print(
                     (

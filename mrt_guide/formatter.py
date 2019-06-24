@@ -11,6 +11,8 @@ _formatters = {}
 
 
 def register_formatter(formatter_type):
+    '''Register a formatter with a given type name. Retrive via FormatterFactory
+    '''
     def wrapper(cls):
         if formatter_type in _formatters:
             raise ValueError(
@@ -22,6 +24,8 @@ def register_formatter(formatter_type):
 
 
 class FormatterFactory:
+    '''Factory for getting different types of formatter
+    '''
     @staticmethod
     def get_formatter(formatter_type=None):
         if formatter_type is None:
@@ -31,6 +35,8 @@ class FormatterFactory:
 
 class Formatter:
     def __init__(self):
+        '''Base class for all formatters.
+        '''
         pass
 
     def format_routes(self, start, end, routes, simple=True, limit=1):
@@ -43,6 +49,14 @@ class ConsoleFormatter(Formatter):
         super().__init__()
 
     def format_routes(self, start, end, routes, simple=True, limit=1):
+        '''Format given routes to string representation
+
+        start: start station
+        end: end station
+        routes: list of (list of stations, cost)
+        simple: whether the output is complex representation or not
+        limit: max number of routes to format
+        '''
         if len(routes) == 0:
             return 'No available route find between {} and {}'.format(
                 start, end
